@@ -28,7 +28,8 @@ if st.button("Check Now"):
         cleaned = clean_text(user_input)
         vectorized = vectorizer.transform([cleaned])
         prediction = model.predict(vectorized)
-        confidence = model.predict_proba(vectorizer.transform([text_input]))[0]
+        confidence = model.predict_proba(vectorizer.transform([user_input]))[0]
+
 
         conf_real = round(confidence[1] * 100, 2)
         conf_fake = round(confidence[0] * 100, 2)
