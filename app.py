@@ -28,8 +28,17 @@ if st.button("Check Now"):
         cleaned = clean_text(user_input)
         vectorized = vectorizer.transform([cleaned])
         prediction = model.predict(vectorized)
+        confidence = model.predict_proba(vectorizer.transform([text_input]))[0]
 
-        if prediction[0] == 1:
-            st.success("✅ This looks like **REAL news**.")
-        else:
-            st.error("🚫 This appears to be **FAKE news**.")
+        conf_real = round(confidence[1] * 100, 2)
+        conf_fake = round(confidence[0] * 100, 2)
+
+
+        st.markdown("### 🧠 Prediction:")
+    if prediction == 1:
+        st.success("✅ This appears to be **REAL** news.")
+    else:
+        st.error("🚫 This appears to be **FAKE** news.")
+
+    st.markdown(f"📊 **Confidence:** Real: `{conf_real}%`, Fake: `{conf_fake}%`")
+
