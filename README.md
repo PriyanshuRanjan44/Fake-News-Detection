@@ -46,7 +46,7 @@ Fake News Detection/
 
 ### ✅ Step 1: Clone the Repository
 
-```bash
+
 git clone https://github.com/PriyanshuRanjan44/Fake-News-Detection.git
 cd Fake-News-Detection
 
