@@ -44,26 +44,26 @@ Fake News Detection/
 
 ## 🚀 How to Run the App
 
-# ✅ Step 1: Clone the Repository
+## ✅ Step 1: Clone the Repository
 
 
 - git clone https://github.com/PriyanshuRanjan44/Fake-News-Detection.git
 - cd Fake-News-Detection
 
-# ✅ Step 2: Create and activate a virtual environment
+## ✅ Step 2: Create and activate a virtual environment
 
-## For Windows: 
+### For Windows: 
 - python -m venv venv
 - venv\Scripts\activate
 
-## For macOS/Linux:
+### For macOS/Linux:
 - python3 -m venv venv
 - source venv/bin/activate
 
-# ✅ Step 3: Install required Python libraries
+## ✅ Step 3: Install required Python libraries
 - pip install -r requirements.txt
 
-# ✅ Step 4: Launch the Streamlit GUI
+## ✅ Step 4: Launch the Streamlit GUI
 - streamlit run app.py
 
 
