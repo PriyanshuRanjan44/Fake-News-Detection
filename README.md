@@ -7,11 +7,9 @@ The goal is to provide a lightweight, interpretable model that can be deployed a
 
 This project showcases:
 
-End-to-end pipeline: from data cleaning and model training to deployment
-
-A simple **GUI** for user interaction
-
-Easy customization for any text classification problem
+- End-to-end pipeline: from data cleaning and model training to deployment
+- A simple **GUI** for user interaction
+- Easy customization for any text classification problem
 
 ---
 
