@@ -1,6 +1,17 @@
 # 📰 Fake News Detection using Machine Learning
 
-This project is a machine learning-based application that detects whether a news article is **real** or **fake** using Natural Language Processing (NLP) techniques and a Passive Aggressive Classifier.
+This project is a machine learning-based application that detects whether a news article is **real** or **fake** using **Natural Language Processing (NLP)** techniques and a **Passive Aggressive Classifier**.
+It leverages a cleaned dataset from Kaggle containing thousands of real and fake news articles. The raw text is preprocessed and converted into numerical features using **TF-IDF** vectorization, then fed into the classifier to learn patterns and detect misinformation.
+
+The goal is to provide a lightweight, interpretable model that can be deployed as a web app using **Streamlit**, allowing users to input a news headline or paragraph and get a prediction instantly.
+
+This project showcases:
+
+End-to-end pipeline: from data cleaning and model training to deployment
+
+A simple **GUI** for user interaction
+
+Easy customization for any text classification problem
 
 ---
 
