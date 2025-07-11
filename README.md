@@ -17,19 +17,19 @@ This project is a machine learning-based application that detects whether a news
 
 ## 📂 Project Structure
 
-Fake News Detection/
-├── app.py # Streamlit web app
-├── data/
-│ ├── True.csv
-│ └── Fake.csv
-├── models/
-│ ├── fake_news_model.pkl
-│ └── tfidf_vectorizer.pkl
-├── fake_news_detection.ipynb # Jupyter Notebook with full training steps
-├── predict.py # CLI-based usage (optional)
-├── requirements.txt # Project dependencies
-├── README.md # Project documentation
-└── venv/ # Virtual environment (excluded from GitHub)
+- Fake News Detection/
+- ├── app.py # Streamlit web app
+- ├── data/
+- │ ├── True.csv
+- │ └── Fake.csv
+- ├── models/
+- │ ├── fake_news_model.pkl
+- │ └── tfidf_vectorizer.pkl
+- ├── fake_news_detection.ipynb # Jupyter Notebook with full training steps
+- ├── predict.py # CLI-based usage (optional)
+- ├── requirements.txt # Project dependencies
+- ├── README.md # Project documentation
+- └── venv/ # Virtual environment (excluded from GitHub)
 
 ---
 
